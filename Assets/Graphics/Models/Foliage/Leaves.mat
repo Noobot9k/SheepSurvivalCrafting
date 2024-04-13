@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Leaves
+  m_Shader: {fileID: -6465566751694194690, guid: cfb6c65b6468b0a4d9290996bbb2dd34,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Floats:
+    - Health: 0
+    - Vector1_345274AE: 0.16
+    - Vector1_583FC4DC: 2
+    - Vector1_6160D6DB: 0.06
+    - Vector1_7E36E0D2: 1
+    - Vector1_8424599: 25
+    - Vector1_DF41F354: 5
+    m_Colors:
+    - Color_8E9DA5AB: {r: 0, g: 1, b: 0.4566211, a: 1}

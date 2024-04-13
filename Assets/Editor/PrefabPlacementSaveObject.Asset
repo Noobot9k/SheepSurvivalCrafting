@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0b61d2f72e9f4e45a0e4d6fb8aa3309, type: 3}
+  m_Name: PrefabPlacementSaveObject
+  m_EditorClassIdentifier: 
+  Placables:
+  - name: BirchTree
+    VisibleInWindow: 0
+    Prefab: {fileID: 899289289525112632, guid: 2a942c99226ac1247b0b2e668f4d8fde, type: 3}
+    RandomHeight: {x: 0.9, y: 1.5}
+    LockWidthToHeight: 0
+    RandomWidth: {x: 0.9, y: 1.5}
+    RotateRandomY: 1
+    RotateRandomXYZ: 0
+    AlignRotationToGrid: 0
+    LeanInheritance: 0
+    RotationOffset: {x: 90, y: 0, z: 0}
+    AlignToGrid: 0
+  - name: Rock_Full
+    VisibleInWindow: 0
+    Prefab: {fileID: 5797081886537124810, guid: 2a0876bb9fdcac94fa758dfa26863a3d,
+      type: 3}
+    RandomHeight: {x: 0.9, y: 1.5}
+    LockWidthToHeight: 1
+    RandomWidth: {x: 1, y: 1}
+    RotateRandomY: 1
+    RotateRandomXYZ: 0
+    AlignRotationToGrid: 0
+    LeanInheritance: 1
+    RotationOffset: {x: 0, y: 0, z: 0}
+    AlignToGrid: 0
+  - name: Boulder
+    VisibleInWindow: 1
+    Prefab: {fileID: 747337209795019019, guid: 549d8ffbe26210646b1ff3d217dfbd01, type: 3}
+    RandomHeight: {x: 1, y: 2}
+    LockWidthToHeight: 0
+    RandomWidth: {x: 1, y: 2}
+    RotateRandomY: 1
+    RotateRandomXYZ: 1
+    AlignRotationToGrid: 0
+    LeanInheritance: 1
+    RotationOffset: {x: 0, y: 0, z: 0}
+    AlignToGrid: 0
+  SelectedForPlacement:
+    name: Boulder
+    VisibleInWindow: 1
+    Prefab: {fileID: 747337209795019019, guid: 549d8ffbe26210646b1ff3d217dfbd01, type: 3}
+    RandomHeight: {x: 1, y: 2}
+    LockWidthToHeight: 0
+    RandomWidth: {x: 1, y: 2}
+    RotateRandomY: 1
+    RotateRandomXYZ: 1
+    AlignRotationToGrid: 0
+    LeanInheritance: 1
+    RotationOffset: {x: 0, y: 0, z: 0}
+    AlignToGrid: 0
